@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canteen Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #333;
+            background-image: url('./food.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            opacity: 0.5px;
+  background: webkit-filter blur(10px);            
+
+        }
+
+        header {
+            /* background-color: #333; */
+            color: #fff;
+            padding: 10px; /* Reduced padding */
+            font-size: 1em; /* Smaller font size */
+            margin: 3px 0 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5em; /* Ensure header font size matches */
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: flex-end;
+            margin: 20px 0;
+            border: #333;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        nav a {
+            color: black; /* Blue color */
+            text-decoration: none;
+            font-weight: bold;
+            margin-left: auto;
+            font-size: large;
+            /* background-color: rgb(202, 244, 230); */
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: #ef1212 0 0 5px;
+            }
+
+        nav a:hover {
+        background-color: #007BFF;
+        color: #fff;
+            
+        }
+
+        section {
+            width: 75%;
+            height: 40vh;
+            margin: 0 auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            /* background-color: #fff; */
+            margin-bottom: 20px;
+            align-items: center;
+            box-shadow: #ef1212 0 0 5px;
+            font-size: larger;
+            font-weight: bold;
+            color: black;
+        }
+
+        footer {
+            /* background-color: #333; */
+            color: black;
+            padding: 10px; /* Reduced padding */
+            font-size: 0.8em; /* Smaller font size */
+        }
+
+        #about {
+            /* background-color: #f0f0f0; */
+            padding: 10px;
+            border-radius: 10px;
+            height: max-content;
+        }
+
+        @media screen and (max-width: 600px) {
+            section {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Canteen Management System</h1>
+    </header>
+    
+    <main>
+        <nav>
+            <a href="./login.php">Login</a>
+        </nav>
+        <section id="introduction">
+            <h2 id="about">About Our Canteen Management System</h2>
+            <p>
+                Our Canteen Management System is designed to streamline the process of ordering food, managing inventory, and generating sales reports. 
+                Our goal is to provide a seamless and efficient experience for both canteen operators and customers.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Canteen Management System</p>
+    </footer>
+</body>
+</html>
